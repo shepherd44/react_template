@@ -1,0 +1,27 @@
+{
+  "name": "@react-template/components",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint ./src/**/*.js* --max-warnings=0 --format=codeframe",
+    "lint:fix": "eslint ./src/**/*.js* --max-warnings=0 --format=codeframe --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-prettier": "^3.4.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "material-ui": "^0.20.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.3.0"
+  }
+}
